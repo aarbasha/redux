@@ -1,0 +1,26 @@
+
+#dropdown-basic{
+    position: relative;
+}
+#dropdown-basic .Badge {
+  transition: all 1s;
+  position: absolute;
+  top: -8px;
+  left: -15px;
+  background-color: rgb(179, 0, 0);
+  border-radius:10px;
+  width: auto;
+  padding:auto;
+  color: rgb(255, 255, 255);
+}
+.nav-link{
+  color: azure !important;
+  border-radius: 10px;
+  transition: all 1s;
+}
+.nav-link .active{
+  transition: all 1s;
+  color: rgb(0, 0, 0) !important;
+  background-color: orange;
+  border-radius: 10px;
+}
